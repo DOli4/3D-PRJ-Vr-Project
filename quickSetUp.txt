@@ -1,0 +1,30 @@
+Install All Required NuGet Packages
+
+Run these inside your project folder:
+
+dotnet add package OpenAI
+dotnet add package Google.Cloud.TextToSpeech.V1
+dotnet add package NAudio
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.Json
+
+Optional: Auto-Rebuild on File Save (for faster testing)
+
+dotnet tool install --global dotnet-watch
+
+Then you can run:
+
+dotnet watch run
+
+Set Your Google API Key (Service Account JSON)
+
+Replace the path with where you saved your JSON key:
+
+setx GOOGLE_APPLICATION_CREDENTIALS "D:\Keys\google-tts.json"
+
+After setting this, close and reopen PowerShell.
+Build & Run the App
+
+dotnet restore
+dotnet build
+dotnet run

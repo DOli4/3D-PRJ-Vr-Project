@@ -1,16 +1,16 @@
-# 🎤 ChatGPT Interview Bot with Voice (C# + OpenAI + Google TTS)
+# ChatGPT Interview Bot with Voice (C# + OpenAI + Google TTS)
 
 This project is a **voice-based coding interview assistant** built in **C# (.NET 8)**.  
 It uses:
 
-✅ **OpenAI GPT-4** – For dynamic rephrasing of questions  
-✅ **OpenAI Whisper** – For speech-to-text transcription  
-✅ **Google TTS (Text-to-Speech)** – For realistic AI voices  
-✅ **NAudio** – For recording and playing audio  
+**OpenAI GPT-4** – For dynamic rephrasing of questions  
+**OpenAI Whisper** – For speech-to-text transcription  
+**Google TTS (Text-to-Speech)** – For realistic AI voices  
+**NAudio** – For recording and playing audio  
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)  
 - A Google Cloud Project with **Text-to-Speech API enabled**  
@@ -18,16 +18,16 @@ It uses:
 
 ---
 
-## 🔧 Installation
+## Installation
 
-1️⃣ Clone this repository:
+Clone this repository:
 
 ```bash
 git clone https://github.com/yourusername/chatgpt-interview-bot.git
 cd chatgpt-interview-bot
 ```
 
-2️⃣ Install required packages:
+Install required packages:
 
 ```bash
 dotnet add package OpenAI
@@ -37,7 +37,7 @@ dotnet add package Microsoft.Extensions.Configuration
 dotnet add package Microsoft.Extensions.Configuration.Json
 ```
 
-3️⃣ Create `appsettings.json` in the project root:
+Create `appsettings.json` in the project root:
 
 ```json
 {
@@ -47,7 +47,7 @@ dotnet add package Microsoft.Extensions.Configuration.Json
 }
 ```
 
-4️⃣ Set your **Google API Key JSON**:
+Set your **Google API Key JSON**:
 
 ```powershell
 setx GOOGLE_APPLICATION_CREDENTIALS "D:\Keys\google-tts.json"
@@ -57,7 +57,7 @@ Restart your terminal after setting this.
 
 ---
 
-## ▶️ Running the App
+## Running the App
 
 ```bash
 dotnet restore
@@ -73,16 +73,16 @@ dotnet watch run
 
 ---
 
-## 🎙 Features
+## Features
 
-✅ **Voice-based Q&A interview flow**  
-✅ **Transcribes answers with Whisper (STT)**  
-✅ **Saves audio + text transcripts in `/Transcripts`**  
-✅ **GPT rephrases each question based on user input**  
+**Voice-based Q&A interview flow**  
+**Transcribes answers with Whisper (STT)**  
+**Saves audio + text transcripts in `/Transcripts`**  
+**GPT rephrases each question based on user input**  
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 ChatGPTInterviewBot/
@@ -99,18 +99,18 @@ ChatGPTInterviewBot/
 
 ---
 
-## 🚀 Example Flow
+## Example Flow
 
 ```
-🤖 GPT: Hello, welcome to your coding internship interview. Let's begin.
-🤖 GPT: Tell me about yourself.
-🎤 [You answer... program records + transcribes]
-🤖 GPT: Great! Based on that, can you explain why this internship excites you?
+GPT: Hello, welcome to your coding internship interview. Let's begin.
+GPT: Tell me about yourself.
+[You answer... program records + transcribes]
+GPT: Great! Based on that, can you explain why this internship excites you?
 ```
 
 ---
 
-## 🛑 Ignore Transcripts in Git
+## Ignore Transcripts in Git
 
 Add this to `.gitignore`:
 
@@ -121,5 +121,5 @@ Transcripts/
 
 ---
 
-## 📜 License
+## License
 MIT License
