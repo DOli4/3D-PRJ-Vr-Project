@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CODE\\PRJ\\Npc dialog\\ChatGPTInterViewBot.csproj": {}
+    "D:\\CODE\\3D-PRJ-Vr-Project\\ChatGPTInterViewBot.csproj": {}
   },
   "projects": {
-    "D:\\CODE\\PRJ\\Npc dialog\\ChatGPTInterViewBot.csproj": {
+    "D:\\CODE\\3D-PRJ-Vr-Project\\ChatGPTInterViewBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CODE\\PRJ\\Npc dialog\\ChatGPTInterViewBot.csproj",
+        "projectUniqueName": "D:\\CODE\\3D-PRJ-Vr-Project\\ChatGPTInterViewBot.csproj",
         "projectName": "ChatGPTInterViewBot",
-        "projectPath": "D:\\CODE\\PRJ\\Npc dialog\\ChatGPTInterViewBot.csproj",
+        "projectPath": "D:\\CODE\\3D-PRJ-Vr-Project\\ChatGPTInterViewBot.csproj",
         "packagesPath": "C:\\Users\\diete\\.nuget\\packages\\",
-        "outputPath": "D:\\CODE\\PRJ\\Npc dialog\\obj\\",
+        "outputPath": "D:\\CODE\\3D-PRJ-Vr-Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

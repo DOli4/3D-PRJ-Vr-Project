@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X3X6fmqRuqw=",
+  "dgSpecHash": "RzMsxWRiWC4=",
   "success": true,
-  "projectFilePath": "D:\\CODE\\PRJ\\Npc dialog\\ChatGPTInterViewBot.csproj",
+  "projectFilePath": "D:\\CODE\\3D-PRJ-Vr-Project\\ChatGPTInterViewBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diete\\.nuget\\packages\\google.api.commonprotos\\2.16.0\\google.api.commonprotos.2.16.0.nupkg.sha512",
     "C:\\Users\\diete\\.nuget\\packages\\google.api.gax\\4.9.0\\google.api.gax.4.9.0.nupkg.sha512",

@@ -43,14 +43,16 @@ class Program
 
             // Save the user's audio and transcription to the Transcripts folder
             string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-            string folder = Path.Combine("Transcripts");
-            Directory.CreateDirectory(folder); // Create the folder if it does not exist
+            string folderV = Path.Combine("VoiceTranscripts");
+            string folderT = Path.Combine("TextTranscripts");
+            Directory.CreateDirectory(folderV);
+            Directory.CreateDirectory(folderT);// Create the folder if it does not exist
 
             // Save audio file
-            File.Copy("input.wav", Path.Combine(folder, $"user_{timestamp}.wav"), true);
+            File.Copy("input.wav", Path.Combine(folderV, $"user_{timestamp}.wav"), true);
 
             // Save transcription text file
-            await File.WriteAllTextAsync(Path.Combine(folder, $"user_{timestamp}.txt"), userAnswer);
+            await File.WriteAllTextAsync(Path.Combine(folderT, $"user_{timestamp}.txt"), userAnswer);
 
             // Generate a rephrased version of the next question, if there is another one
             if (i + 1 < questions.Length)
