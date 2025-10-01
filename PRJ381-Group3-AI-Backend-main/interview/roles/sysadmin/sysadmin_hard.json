@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sysadmin-hard-001",
+    "question": "How do you handle tight deadlines?",
+    "role": "sysadmin",
+    "difficulty": "hard",
+    "type": "situational",
+    "student": "I try to avoid working under pressure and usually ask for extensions.",
+    "ideal": [
+      "I manage tight deadlines by breaking down tasks, prioritising high‑impact activities and staying focused under pressure.",
+      "I create a schedule and collaborate with colleagues to ensure that we meet critical milestones without sacrificing quality.",
+      "I stay calm and organised, often using task trackers to monitor progress and communicate proactively with stakeholders."
+    ],
+    "keywords": ["deadlines", "time management", "prioritise", "schedule", "pressure"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-hard-002",
+    "question": "Describe the steps you would take to secure a Linux server after installation.",
+    "role": "sysadmin",
+    "difficulty": "hard",
+    "type": "objective",
+    "student": "I would install antivirus software.",
+    "ideal": [
+      "I would update all packages and configure a firewall (such as UFW or iptables) to restrict access to required ports only.",
+      "I’d disable unnecessary services, enforce strong authentication (e.g. SSH key‑based login) and disable root login over SSH.",
+      "I would set up intrusion detection, configure automatic security updates, harden configurations (e.g. SSH, sudo) and implement regular backups and monitoring."
+    ],
+    "keywords": ["security", "Linux", "firewall", "SSH", "updates", "services", "authentication"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-hard-003",
+    "question": "Describe a time when you implemented a backup and disaster recovery plan. What were the results?",
+    "role": "sysadmin",
+    "difficulty": "hard",
+    "type": "behavioral",
+    "student": "I set up a backup on my laptop.",
+    "ideal": [
+      "At my previous job I created a backup strategy using incremental snapshots and off‑site storage. I scheduled regular backups, tested restores and documented the process.",
+      "We simulated a disaster scenario; the backup plan allowed us to restore services within our RTO and RPO targets, reducing downtime and data loss.",
+      "The project increased management’s confidence and highlighted the importance of regular testing and documentation."
+    ],
+    "keywords": ["backup", "disaster recovery", "data", "recovery", "plan", "RTO", "RPO"],
+    "weights": {"similarity": 0.2, "keywords": 0.15, "completeness": 0.2, "clarity": 0.1, "structure": 0.2, "sentiment": 0.05, "depth": 0.0, "outcome": 0.1}
+  },
+  {
+    "id": "sysadmin-hard-004",
+    "question": "What is virtualisation, and how does it benefit infrastructure management?",
+    "role": "sysadmin",
+    "difficulty": "hard",
+    "type": "objective",
+    "student": "It’s running multiple machines on one server.",
+    "ideal": [
+      "Virtualisation is the process of creating virtual versions of computing resources such as servers, storage or networks using a hypervisor.",
+      "It allows multiple isolated virtual machines to run on a single physical host, improving resource utilisation and flexibility.",
+      "Benefits include easier provisioning, scalability, isolation of applications, reduced hardware costs and simplified disaster recovery."
+    ],
+    "keywords": ["virtualisation", "hypervisor", "resource utilisation", "scalability", "isolation", "cost"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-hard-005",
+    "question": "How would you handle an unexpected system outage that impacts customers? What is your incident communication plan?",
+    "role": "sysadmin",
+    "difficulty": "hard",
+    "type": "situational",
+    "student": "I would restart the servers.",
+    "ideal": [
+      "I would follow our incident response procedure: acknowledge the outage, assemble the response team and quickly assess the scope and root cause while initiating remediation.",
+      "I would communicate with stakeholders and customers via predefined channels, providing regular updates and estimated resolution times.",
+      "After restoring service I would conduct a post‑mortem, document lessons learned and implement preventive measures to avoid similar incidents."
+    ],
+    "keywords": ["outage", "incident response", "communication", "stakeholders", "post‑mortem", "remediation"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  }
+]

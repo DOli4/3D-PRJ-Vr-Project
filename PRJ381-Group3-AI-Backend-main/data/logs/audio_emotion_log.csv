@@ -1,0 +1,12 @@
+Session ID,Timestamp,Transcript,Emotion,Confidence
+Session_1753410568,2025-07-25 12:27:12, This is the voice I'll be speaking with for the project.,joy,0.893
+SESSION SUMMARY,,,,
+Session ID,Top Audio Emotion,Confidence
+Session_1753410568,joy,0.893
+
+Session ID,Timestamp,Transcript,Emotion,Confidence
+Session_1753410568,2025-07-25 12:27:49, This is the voice I'll be using to speak for the project.,joy,0.906
+SESSION SUMMARY,,,,
+Session ID,Top Audio Emotion,Confidence
+Session_1753410568,joy,0.906
+

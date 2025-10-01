@@ -1,0 +1,4 @@
+D:\CODE\3D-PRJ-Vr-Project\Ai\bin\Release\net8.0\win-x64\publish\ChatGPTInterViewBot.pdb
+D:\CODE\3D-PRJ-Vr-Project\Ai\bin\Release\net8.0\win-x64\publish\appsettings.json
+D:\CODE\3D-PRJ-Vr-Project\Ai\bin\Release\net8.0\win-x64\publish\automated-lodge-466210-u4-279b32a10295.json
+D:\CODE\3D-PRJ-Vr-Project\Ai\bin\Release\net8.0\win-x64\publish\ChatGPTInterViewBot.exe

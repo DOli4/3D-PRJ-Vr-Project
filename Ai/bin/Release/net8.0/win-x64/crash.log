@@ -1,0 +1,11 @@
+System.ClientModel.ClientResultException: HTTP 400 (invalid_request_error: audio_too_short)
+Parameter: file
+
+Audio file is too short. Minimum audio length is 0.1 seconds.
+   at OpenAI.ClientPipelineExtensions.ProcessMessageAsync(ClientPipeline pipeline, PipelineMessage message, RequestOptions options)
+   at OpenAI.Audio.AudioClient.TranscribeAudioAsync(BinaryContent content, String contentType, RequestOptions options)
+   at OpenAI.Audio.AudioClient.TranscribeAudioAsync(Stream audio, String audioFilename, AudioTranscriptionOptions options, CancellationToken cancellationToken)
+   at OpenAI.Audio.AudioClient.TranscribeAudioAsync(String audioFilePath, AudioTranscriptionOptions options)
+   at TranscriptionService.TranscribeAsync(String filePath) in D:\CODE\3D-PRJ-Vr-Project\Ai\Services\Transcription.cs:line 25
+   at Program.RunAsync() in D:\CODE\3D-PRJ-Vr-Project\Ai\Program.cs:line 59
+   at Program.Main(String[] args) in D:\CODE\3D-PRJ-Vr-Project\Ai\Program.cs:line 11

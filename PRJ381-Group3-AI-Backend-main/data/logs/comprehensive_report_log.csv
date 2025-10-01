@@ -1,0 +1,4 @@
+Session ID,Timestamp,Overall Score,Facial Score,Body Language Score,Audio Score,Dominant Emotion,Recommendations
+test_session_001,2025-09-17 10:08:20,12.4,12.4,0,0,angry,"Practice relaxation techniques before interviews; Work on maintaining a positive, confident expression; Focus on maintaining good posture throughout the interview; Practice making eye contact with the camera/interviewer; Use natural hand gestures to emphasize points; Practice speaking with more enthusiasm and confidence; Work on voice modulation and tone; Consider practicing mock interviews to improve confidence"
+Session ID,Timestamp,Overall Score,Facial Score,Body Language Score,Audio Score,Dominant Emotion,Recommendations
+test_session_001,2025-09-17 10:26:42,72.1,0,72.1,0,unknown,"Work on maintaining a positive, confident expression; Practice speaking with more enthusiasm and confidence; Work on voice modulation and tone; Good interview skills with room for minor improvements"

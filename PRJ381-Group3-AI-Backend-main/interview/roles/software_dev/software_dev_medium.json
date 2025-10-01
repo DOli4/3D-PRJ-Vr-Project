@@ -1,0 +1,77 @@
+[
+  {
+    "id": "software_dev-medium-001",
+    "question": "How would you explain REST APIs to a non‑technical person?",
+    "role": "software_dev",
+    "difficulty": "medium",
+    "type": "situational",
+    "student": "It’s how websites talk to each other.",
+    "ideal": [
+      "REST APIs let different software talk to each other over the internet; it’s like ordering food at a restaurant: you place a request and get a response.",
+      "They allow systems to exchange information using simple rules like GET for reading and POST for sending data.",
+      "A REST API is a way for one app to ask another app for information, similar to asking a question and getting an answer over the phone."
+    ],
+    "keywords": ["REST", "API", "communication", "data", "request", "response"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  },
+  {
+    "id": "software_dev-medium-002",
+    "question": "What are the benefits of using Agile methodology?",
+    "role": "software_dev",
+    "difficulty": "medium",
+    "type": "objective",
+    "student": "It helps to work faster.",
+    "ideal": [
+      "Agile emphasises iterative development, enabling teams to deliver working software in short cycles and respond to change quickly.",
+      "It encourages collaboration with stakeholders and regular feedback, which improves product quality and ensures the solution meets user needs.",
+      "Agile practices like daily stand‑ups, retrospectives and backlog refinement foster continuous improvement and transparency."
+    ],
+    "keywords": ["Agile", "iteration", "flexibility", "stakeholders", "feedback", "continuous improvement"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "software_dev-medium-003",
+    "question": "How do you handle conflicting priorities between meeting deadlines and maintaining code quality?",
+    "role": "software_dev",
+    "difficulty": "medium",
+    "type": "situational",
+    "student": "I just work overtime.",
+    "ideal": [
+      "I communicate with stakeholders about the impact of rushing and negotiate scope, prioritising critical features while planning time for refactoring.",
+      "I maintain a balance by writing tests and keeping code modular so it can be improved later without causing regressions.",
+      "When necessary I document technical debt and schedule remediation tasks in future sprints to ensure long‑term quality."
+    ],
+    "keywords": ["deadlines", "code quality", "prioritise", "communication", "technical debt", "trade‑offs"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  },
+  {
+    "id": "software_dev-medium-004",
+    "question": "Describe a time you had to debug a complex issue. What steps did you take?",
+    "role": "software_dev",
+    "difficulty": "medium",
+    "type": "behavioral",
+    "student": "I looked through the code and fixed it.",
+    "ideal": [
+      "In one project I encountered a memory leak. I first reproduced the issue, analysed logs, used a profiler to identify the leaking component and added instrumentation to isolate the root cause.",
+      "After pinpointing the problem, I refactored the offending code and wrote tests to ensure the bug was fixed without introducing regressions.",
+      "I documented the findings and shared the lessons learned with the team so we could avoid similar issues in the future."
+    ],
+    "keywords": ["debugging", "root cause", "logs", "profiling", "testing", "documentation"],
+    "weights": {"similarity": 0.2, "keywords": 0.15, "completeness": 0.2, "clarity": 0.1, "structure": 0.2, "sentiment": 0.05, "depth": 0.0, "outcome": 0.1}
+  },
+  {
+    "id": "software_dev-medium-005",
+    "question": "How do you continue to learn and keep your programming skills up to date?",
+    "role": "software_dev",
+    "difficulty": "medium",
+    "type": "soft_skill",
+    "student": "I read random articles.",
+    "ideal": [
+      "I regularly read official documentation, blogs and books on new technologies and subscribe to newsletters like JavaScript Weekly.",
+      "I take online courses and attend workshops or conferences to deepen my expertise and learn best practices.",
+      "I build side projects and contribute to open‑source to apply new concepts and get feedback from the community."
+    ],
+    "keywords": ["learning", "continuous improvement", "courses", "community", "side projects", "documentation"],
+    "weights": {"similarity": 0.1, "keywords": 0.15, "completeness": 0.1, "clarity": 0.25, "structure": 0.1, "sentiment": 0.3, "depth": 0.0, "outcome": 0.0}
+  }
+]
