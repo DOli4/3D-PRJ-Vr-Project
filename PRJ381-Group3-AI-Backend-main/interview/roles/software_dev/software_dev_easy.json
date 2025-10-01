@@ -1,0 +1,122 @@
+[
+  {
+    "id": "software_dev-easy-001",
+    "question": "Describe a technical problem you solved.",
+    "role": "software_dev",
+    "difficulty": "easy",
+    "type": "behavioral",
+    "student": "I fixed a bug in our login form that caused errors when users entered special characters.",
+    "ideal": [
+      "I diagnosed and resolved a security flaw in our authentication system, which improved the login reliability and protected user data.",
+      "I handled a performance issue in our database by optimising queries and reduced load time by 40%.",
+      "I debugged a front-end error affecting user input and deployed a patch with validation checks and unit tests."
+    ],
+    "keywords": ["bug", "debugging", "problem-solving", "technical issue", "solution"],
+    "weights": {
+      "similarity":   0.2,
+      "keywords":     0.2,
+      "sentiment":    0.15,
+      "structure":    0.15,
+      "completeness": 0.1,
+      "clarity":      0.1,
+      "depth":        0.05,
+      "outcome":      0.05
+    }
+  },
+  {
+    "id": "software_dev-easy-002",
+    "question": "Describe the software development life cycle (SDLC).",
+    "role": "software_dev",
+    "difficulty": "easy",
+    "type": "objective",
+    "student": "It involves planning and coding.",
+    "ideal": [
+      "The SDLC typically consists of requirement gathering, design, development, testing, deployment and maintenance.",
+      "During the planning and analysis stages, stakeholder needs are captured and a system design is created before coding begins.",
+      "After implementation, software is tested, released and then monitored and updated to fix bugs and add features."
+    ],
+    "keywords": ["SDLC", "requirements", "design", "development", "testing", "maintenance"],
+    "weights": {
+      "similarity":   0.3,
+      "keywords":     0.25,
+      "sentiment":    0.0,
+      "structure":    0.05,
+      "completeness": 0.15,
+      "clarity":      0.15,
+      "depth":        0.1,
+      "outcome":      0.0
+    }
+  },
+  {
+    "id": "software_dev-easy-003",
+    "question": "What is the difference between SQL and NoSQL databases?",
+    "role": "software_dev",
+    "difficulty": "easy",
+    "type": "objective",
+    "student": "SQL uses tables and NoSQL is not structured.",
+    "ideal": [
+      "SQL databases are relational and use structured tables with fixed schemas; they support ACID transactions and are well-suited for complex queries.",
+      "NoSQL databases are non-relational and include document, key-value, column and graph stores; they offer flexible schemas and scale horizontally.",
+      "The choice depends on requirements: SQL for structured data and consistency; NoSQL for high scalability, unstructured data or rapid development."
+    ],
+    "keywords": ["SQL", "NoSQL", "relational", "schema", "scaling", "ACID", "consistency"],
+    "weights": {
+      "similarity":   0.3,
+      "keywords":     0.25,
+      "sentiment":    0.0,
+      "structure":    0.05,
+      "completeness": 0.15,
+      "clarity":      0.15,
+      "depth":        0.1,
+      "outcome":      0.0
+    }
+  },
+  {
+    "id": "software_dev-easy-004",
+    "question": "What programming languages are you proficient in, and how do you decide which to use?",
+    "role": "software_dev",
+    "difficulty": "easy",
+    "type": "soft_skill",
+    "student": "I know some languages like Java and Python.",
+    "ideal": [
+      "I'm proficient in languages such as Python, Java and JavaScript; I choose a language based on the project requirements, existing ecosystem and performance considerations.",
+      "For quick prototypes and data-driven tasks I use Python; for enterprise-grade back-end services I prefer Java due to its robustness and tooling.",
+      "I assess factors like community support, available libraries and the team's familiarity when making a selection."
+    ],
+    "keywords": ["languages", "proficient", "selection", "use case", "project", "ecosystem"],
+    "weights": {
+      "similarity":   0.15,
+      "keywords":     0.15,
+      "sentiment":    0.2,
+      "structure":    0.15,
+      "completeness": 0.1,
+      "clarity":      0.15,
+      "depth":        0.05,
+      "outcome":      0.05
+    }
+  },
+  {
+    "id": "software_dev-easy-005",
+    "question": "How do you ensure code quality in your projects?",
+    "role": "software_dev",
+    "difficulty": "easy",
+    "type": "situational",
+    "student": "I test my code before committing.",
+    "ideal": [
+      "I write unit and integration tests, conduct peer code reviews and adhere to coding standards to maintain quality.",
+      "I use static analysis tools and linters to catch issues early and employ continuous integration pipelines to automate builds and tests.",
+      "I document my code and refactor regularly to ensure readability and maintainability."
+    ],
+    "keywords": ["code quality", "testing", "code reviews", "CI", "standards", "refactoring"],
+    "weights": {
+      "similarity":   0.2,
+      "keywords":     0.2,
+      "sentiment":    0.15,
+      "structure":    0.15,
+      "completeness": 0.1,
+      "clarity":      0.1,
+      "depth":        0.05,
+      "outcome":      0.05
+    }
+  }
+]

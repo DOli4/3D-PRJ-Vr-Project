@@ -1,0 +1,77 @@
+[
+	{
+		"id": "data_scientist-easy-001",
+		"question": "How do you approach learning a new programming language?",
+		"role": "data_scientist",
+		"difficulty": "easy",
+		"type": "soft_skill",
+		"student": "I watch a few videos and copy code from examples.",
+		"ideal": [
+			"I usually start with the official documentation and build small projects to practice.",
+			"I follow structured online courses and apply the new language to a mini-project to reinforce my understanding.",
+			"I learn best by doing, so I read code, solve problems on platforms like LeetCode, and ask questions in developer communities."
+		],
+		"keywords": ["learning", "programming", "documentation", "practice", "projects", "code"],
+		"weights": {"similarity": 0.1, "keywords": 0.15, "completeness": 0.1, "clarity": 0.25, "structure": 0.1, "sentiment": 0.3, "depth": 0.0, "outcome": 0.0}
+	},
+	{
+		"id": "data_scientist-easy-002",
+		"question": "How do you stay updated with new technologies in the data science field?",
+		"role": "data_scientist",
+		"difficulty": "easy",
+		"type": "soft_skill",
+		"student": "I like reading blogs and follow some data scientists on Twitter.",
+		"ideal": [
+			"I stay updated by reading research papers, subscribing to data science newsletters and following leading experts on social media.",
+			"I participate in online communities and take courses on new tools to keep my skills current.",
+			"I attend meetups or webinars and explore trending GitHub repositories to see what’s being developed."
+		],
+		"keywords": ["learning", "blogs", "technology", "community", "courses", "github"],
+		"weights": {"similarity": 0.1, "keywords": 0.15, "completeness": 0.1, "clarity": 0.25, "structure": 0.1, "sentiment": 0.3, "depth": 0.0, "outcome": 0.0}
+	},
+	{
+		"id": "data_scientist-easy-003",
+		"question": "Explain the difference between supervised and unsupervised learning.",
+		"role": "data_scientist",
+		"difficulty": "easy",
+		"type": "objective",
+		"student": "Supervised learning uses labelled data and unsupervised learning uses unlabelled data.",
+		"ideal": [
+			"Supervised learning relies on labelled datasets to train models where each input has a corresponding output, and it’s commonly used for tasks like classification and regression.",
+			"In supervised learning the algorithm learns a mapping from inputs to outputs. In unsupervised learning there are no labels; the goal is to discover underlying structure or patterns in the data, such as through clustering or dimensionality reduction.",
+			"Unsupervised methods are often used for anomaly detection or grouping similar observations when the target variable is unknown."
+		],
+		"keywords": ["supervised", "unsupervised", "labelled", "unlabelled", "classification", "clustering", "pattern"],
+		"weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+	},
+	{
+		"id": "data_scientist-easy-004",
+		"question": "How would you communicate complex data insights to a non‑technical audience?",
+		"role": "data_scientist",
+		"difficulty": "easy",
+		"type": "soft_skill",
+		"student": "I would just show them the numbers.",
+		"ideal": [
+			"I simplify technical jargon and focus on the business impact, using clear visuals and analogies to make insights relatable.",
+			"I tailor my message to the audience’s background and tell a story that connects the data to their goals.",
+			"I use charts and dashboards that highlight key trends and ensure there is time for questions and discussion."
+		],
+		"keywords": ["communication", "simplify", "visualization", "business", "stakeholders", "insight"],
+		"weights": {"similarity": 0.1, "keywords": 0.15, "completeness": 0.1, "clarity": 0.25, "structure": 0.1, "sentiment": 0.3, "depth": 0.0, "outcome": 0.0}
+	},
+	{
+		"id": "data_scientist-easy-005",
+		"question": "What is your favourite programming language for data analysis and why?",
+		"role": "data_scientist",
+		"difficulty": "easy",
+		"type": "opinion",
+		"student": "I like Python because it’s popular.",
+		"ideal": [
+			"Python is my go‑to because its syntax is readable and it has a rich ecosystem of libraries like NumPy, pandas and scikit‑learn, which accelerate experimentation.",
+			"R is another favourite when doing statistical analysis and creating sophisticated visualisations because of packages like ggplot2 and dplyr.",
+			"The choice depends on the task – Python for general‑purpose data science and R for deep statistical work."
+		],
+		"keywords": ["language", "Python", "R", "libraries", "analysis", "ecosystem"],
+		"weights": {"similarity": 0.05, "keywords": 0.1, "completeness": 0.1, "clarity": 0.25, "structure": 0.15, "sentiment": 0.35, "depth": 0.0, "outcome": 0.0}
+	}
+]

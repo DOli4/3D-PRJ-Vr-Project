@@ -1,0 +1,90 @@
+[
+  {
+    "question": "Tell me about a time you worked in a team.",
+    "type": "behavioral",
+    "answer": "I worked with my classmates on a project last semester.",
+    "ideal": [
+      "I have experience working in a team where we used agile methods.",
+      "I collaborated with teammates to complete tasks efficiently during a group project.",
+      "We divided work based on strengths and communicated regularly using daily standups."
+    ],
+    "keywords": ["team", "collaboration", "communication", "shared goals", "agile"]
+  },
+  {
+    "question": "How do you handle tight deadlines?",
+    "type": "situational",
+    "answer": "I try to avoid working under pressure and usually ask for extensions.",
+    "ideal": [
+      "I manage tight deadlines by breaking down the tasks, prioritizing, and staying focused under pressure.",
+      "I create a schedule and focus on high-impact tasks first.",
+      "I stay calm and organized, often using task trackers to stay on top of deliverables."
+    ],
+    "keywords": ["deadlines", "time management", "prioritize", "schedule", "pressure"]
+  },
+  {
+    "question": "Describe a technical problem you solved.",
+    "type": "behavioral",
+    "answer": "I fixed a bug in our login form that caused errors when users entered special characters.",
+    "ideal": [
+      "I diagnosed and resolved a security flaw in our authentication system, which improved the login reliability.",
+      "I handled a performance issue in our database by optimizing queries and reduced load time by 40%.",
+      "I debugged a frontend error affecting user input and deployed a patch with validation checks."
+    ],
+    "keywords": ["bug", "debugging", "problem-solving", "technical issue", "solution"]
+  },
+  {
+    "question": "How do you stay updated with new technologies?",
+    "type": "soft_skill",
+    "answer": "I like reading blogs and I follow some developers on Twitter.",
+    "ideal": [
+      "I stay updated with new technologies by regularly reading tech blogs, subscribing to newsletters, and following key contributors in open-source communities.",
+      "I participate in coding communities and online courses to keep my skills sharp.",
+      "I attend tech meetups and follow trending GitHub repositories."
+    ],
+    "keywords": ["learning", "blogs", "technology", "community", "courses", "github"]
+  },
+  {
+    "question": "What is your greatest strength?",
+    "type": "soft_skill",
+    "answer": "I think I am a good team player and always try to help others.",
+    "ideal": [
+      "My greatest strength is being a strong team player who communicates well and supports others to reach common goals.",
+      "I'm very adaptable and can quickly pick up new tools and environments.",
+      "I have strong problem-solving skills and stay calm under pressure."
+    ],
+    "keywords": ["strength", "teamwork", "communication", "problem-solving", "adaptability"]
+  },
+  {
+    "question": "What is TCP/IP?",
+    "type": "objective",
+    "answer": "It's the main networking protocol that connects computers on the internet.",
+    "ideal": [
+      "TCP/IP is a set of protocols that governs the connection of computer systems on the internet.",
+      "It stands for Transmission Control Protocol / Internet Protocol and is used to send and receive data between devices.",
+      "TCP/IP enables network communication by defining how data should be packetized, addressed, transmitted, and routed."
+    ],
+    "keywords": ["tcp", "ip", "protocol", "internet", "networking", "communication"]
+  },
+  {
+    "question": "What is your approach to learning a new programming language?",
+    "type": "soft_skill",
+    "answer": "I usually watch a few YouTube videos and copy code from examples.",
+    "ideal": [
+      "I usually start with the official documentation and build small projects to practice.",
+      "I follow structured online courses, and I try to apply the new language to a real-world mini project.",
+      "I learn best by doing, so I read code, solve problems on platforms like LeetCode, and ask questions in dev communities."
+    ],
+    "keywords": ["learning", "programming", "documentation", "practice", "projects", "code"]
+  },
+  {
+    "question": "How would you explain REST APIs to a non-technical person?",
+    "type": "situational",
+    "answer": "It's how websites talk to each other.",
+    "ideal": [
+      "REST APIs let different software talk to each other over the internet — like placing an order at a restaurant and getting your food delivered.",
+      "They allow systems to exchange information using simple rules like GET for reading and POST for sending data.",
+      "A REST API is a way for one app to ask another app for information, kind of like asking a question and getting an answer."
+    ],
+    "keywords": ["rest", "api", "communication", "data", "request", "response"]
+  }
+]

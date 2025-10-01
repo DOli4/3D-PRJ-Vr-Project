@@ -1,0 +1,59 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+env/
+ENV/
+venv/
+
+# Python egg
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+
+# Logs and local data
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.jsonl
+*.tmp
+*.cache/
+.cache/
+
+# VS Code
+.vscode/
+
+# macOS/Linux system files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+*.env
+
+# Pytest / coverage
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Ignore test scripts and output
+Testing/
+
+# Ignore runtime user and session data
+/interview/users/
+interview/users/*.json
+
+/interview/sessions/
+interview/sessions/*.json

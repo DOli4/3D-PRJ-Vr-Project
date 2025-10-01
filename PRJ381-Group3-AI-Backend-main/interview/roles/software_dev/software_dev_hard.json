@@ -1,0 +1,77 @@
+[
+  {
+    "id": "software_dev-hard-001",
+    "question": "What is TCP/IP and why is it important?",
+    "role": "software_dev",
+    "difficulty": "hard",
+    "type": "objective",
+    "student": "It’s the main networking protocol that connects computers on the internet.",
+    "ideal": [
+      "TCP/IP is a suite of communication protocols that governs how data is transmitted over networks, including the internet.",
+      "It stands for Transmission Control Protocol/Internet Protocol; TCP provides reliable, ordered delivery of data, while IP handles addressing and routing.",
+      "Together they enable interoperability between heterogeneous systems and form the backbone of modern network communication."
+    ],
+    "keywords": ["TCP", "IP", "protocol", "internet", "networking", "communication"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "software_dev-hard-002",
+    "question": "What is the difference between threads and processes, and how do you handle concurrency issues?",
+    "role": "software_dev",
+    "difficulty": "hard",
+    "type": "objective",
+    "student": "Threads run within a process.",
+    "ideal": [
+      "Processes are independent execution units with separate memory spaces; threads are lighter‑weight units that share the same memory within a process.",
+      "Because threads share memory, they require synchronization mechanisms such as mutexes, locks or semaphores to prevent race conditions.",
+      "Concurrency issues can be mitigated by using thread‑safe data structures, avoiding shared mutable state and leveraging higher‑level abstractions like concurrent queues or actor models."
+    ],
+    "keywords": ["threads", "processes", "concurrency", "synchronization", "locks", "race conditions"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "software_dev-hard-003",
+    "question": "How would you optimise the performance of a slow application?",
+    "role": "software_dev",
+    "difficulty": "hard",
+    "type": "situational",
+    "student": "I would run it on a faster computer.",
+    "ideal": [
+      "I would profile the application to identify bottlenecks (CPU, memory or I/O) and then optimise the slowest parts, such as algorithmic inefficiencies or database queries.",
+      "I might implement caching, parallelism or asynchronous processing to improve throughput and responsiveness.",
+      "If the application is I/O‑bound I would check network latency and reduce round trips; if CPU‑bound I might rewrite critical sections in a more efficient language."
+    ],
+    "keywords": ["optimisation", "profiling", "performance", "bottlenecks", "caching", "parallelism"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  },
+  {
+    "id": "software_dev-hard-004",
+    "question": "Describe a challenging software project you completed and your role in its success.",
+    "role": "software_dev",
+    "difficulty": "hard",
+    "type": "behavioral",
+    "student": "I built a school project that got an A.",
+    "ideal": [
+      "I led the development of a microservices‑based e‑commerce platform. I coordinated with the team to define the architecture, implemented key services and ensured integration through CI/CD pipelines.",
+      "During a legacy system migration I managed the data‑migration scripts and refactored modules to improve maintainability while meeting a tight deadline.",
+      "I worked on a high‑traffic API, overcame scalability issues by introducing load balancing and caching, and delivered the project on schedule."
+    ],
+    "keywords": ["project", "challenge", "role", "team", "results", "scalability"],
+    "weights": {"similarity": 0.2, "keywords": 0.15, "completeness": 0.2, "clarity": 0.1, "structure": 0.2, "sentiment": 0.05, "depth": 0.0, "outcome": 0.1}
+  },
+  {
+    "id": "software_dev-hard-005",
+    "question": "What is a design pattern? Describe the Singleton or Factory pattern and its use cases.",
+    "role": "software_dev",
+    "difficulty": "hard",
+    "type": "objective",
+    "student": "A design pattern is a reusable solution.",
+    "ideal": [
+      "A design pattern is a general, reusable solution to a common software design problem; it provides a proven template for solving similar issues.",
+      "The Singleton pattern ensures that only one instance of a class exists and provides a global access point; it’s used for configurations or loggers.",
+      "The Factory pattern encapsulates object creation logic and returns objects of a common interface or superclass; it’s useful when the exact type of object isn’t known until runtime."
+    ],
+    "keywords": ["design pattern", "Singleton", "Factory", "reusability", "object creation", "instance"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  }
+]

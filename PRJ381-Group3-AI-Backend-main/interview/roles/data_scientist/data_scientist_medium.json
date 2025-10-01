@@ -1,0 +1,77 @@
+[
+  {
+    "id": "data_scientist-medium-001",
+    "question": "What is the bias–variance tradeoff in machine learning?",
+    "role": "data_scientist",
+    "difficulty": "medium",
+    "type": "objective",
+    "student": "Bias and variance are opposites.",
+    "ideal": [
+      "The bias–variance tradeoff describes how model complexity impacts error: high bias models are too simple and underfit the data, while high variance models are overly complex and overfit.",
+      "As you increase model flexibility, variance tends to increase and bias decreases; the goal is to find a balance that minimises total error on unseen data.",
+      "Techniques like cross‑validation and regularisation help manage this tradeoff by selecting an appropriate model complexity."
+    ],
+    "keywords": ["bias", "variance", "tradeoff", "overfitting", "underfitting", "complexity"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "data_scientist-medium-002",
+    "question": "If your dataset has many missing values, how would you handle them?",
+    "role": "data_scientist",
+    "difficulty": "medium",
+    "type": "situational",
+    "student": "I’d drop the rows with missing values.",
+    "ideal": [
+      "First, I would investigate why values are missing and whether the missingness is random or systematic.",
+      "Depending on the context, I might impute missing values using the mean, median or more sophisticated methods like K‑nearest neighbours or model‑based imputation.",
+      "If a feature has too many missing values and contributes little to the model, I may remove it; otherwise I would use algorithms that handle missing values natively."
+    ],
+    "keywords": ["missing", "imputation", "mean", "median", "drop", "model"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  },
+  {
+    "id": "data_scientist-medium-003",
+    "question": "Describe a project where you used unsupervised learning to find patterns in data.",
+    "role": "data_scientist",
+    "difficulty": "medium",
+    "type": "behavioral",
+    "student": "I haven’t used it yet.",
+    "ideal": [
+      "In a customer segmentation project, I used K‑means clustering to group customers based on purchasing behaviour, which helped marketing tailor promotions.",
+      "I applied hierarchical clustering to gene expression data to identify similar biological samples and discovered meaningful clusters that aligned with known phenotypes.",
+      "Using principal component analysis (PCA), I reduced dimensionality and found latent patterns in sensor data that improved anomaly detection."
+    ],
+    "keywords": ["clustering", "unsupervised", "patterns", "segmentation", "PCA", "results"],
+    "weights": {"similarity": 0.2, "keywords": 0.15, "completeness": 0.2, "clarity": 0.1, "structure": 0.2, "sentiment": 0.05, "depth": 0.0, "outcome": 0.1}
+  },
+  {
+    "id": "data_scientist-medium-004",
+    "question": "Explain logistic regression and when you would use it.",
+    "role": "data_scientist",
+    "difficulty": "medium",
+    "type": "objective",
+    "student": "It’s used for classification.",
+    "ideal": [
+      "Logistic regression models the probability that an input belongs to a particular class using the logistic (sigmoid) function to map a linear combination of features to the range 0–1.",
+      "It is used for binary or multinomial classification problems where the relationship between predictors and the log‑odds of the outcome is approximately linear.",
+      "Because it outputs probabilities, logistic regression is also useful when you need calibrated probability estimates and interpretability."
+    ],
+    "keywords": ["logistic regression", "classification", "probability", "sigmoid", "log‑odds"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "data_scientist-medium-005",
+    "question": "How would you evaluate the performance of a classification model?",
+    "role": "data_scientist",
+    "difficulty": "medium",
+    "type": "situational",
+    "student": "I’d check the accuracy.",
+    "ideal": [
+      "I would look at multiple metrics including accuracy, precision, recall and the F1‑score to understand tradeoffs between false positives and false negatives.",
+      "I’d analyse the confusion matrix to see where the model makes errors and use ROC‑AUC to evaluate discriminative power across thresholds.",
+      "For imbalanced datasets, I would focus on metrics like precision‑recall curves and might use cross‑validation to obtain reliable estimates."
+    ],
+    "keywords": ["evaluation", "accuracy", "precision", "recall", "F1", "ROC"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  }
+]

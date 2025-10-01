@@ -1,0 +1,77 @@
+[
+  {
+    "id": "data_scientist-hard-001",
+    "question": "Explain how a random forest works.",
+    "role": "data_scientist",
+    "difficulty": "hard",
+    "type": "objective",
+    "student": "It’s multiple decision trees.",
+    "ideal": [
+      "A random forest is an ensemble of decision trees where each tree is trained on a bootstrapped subset of the data and uses a random subset of features at each split.",
+      "By aggregating the predictions of many de-correlated trees (via majority vote for classification or averaging for regression), random forests reduce variance and improve generalisation.",
+      "Because they sample both observations and features, they are less prone to overfitting than single decision trees."
+    ],
+    "keywords": ["random forest", "decision trees", "ensemble", "bagging", "features", "variance"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "data_scientist-hard-002",
+    "question": "What is cross-validation and why is it important?",
+    "role": "data_scientist",
+    "difficulty": "hard",
+    "type": "objective",
+    "student": "It’s splitting the data into training and test.",
+    "ideal": [
+      "Cross-validation is a resampling technique used to evaluate model performance on unseen data by partitioning the dataset into multiple training and validation folds.",
+      "In k-fold cross-validation the data is split into k subsets; the model is trained k times, each time leaving out one fold for validation and using the remaining folds for training.",
+      "It provides a more reliable estimate of generalisation error than a single train-test split and helps in model selection and hyperparameter tuning."
+    ],
+    "keywords": ["cross-validation", "k-fold", "model evaluation", "resampling", "generalisation", "hyperparameter"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "data_scientist-hard-003",
+    "question": "You notice your model is overfitting the training data. What steps can you take to prevent this?",
+    "role": "data_scientist",
+    "difficulty": "hard",
+    "type": "situational",
+    "student": "Use less data or stop training.",
+    "ideal": [
+      "I would simplify the model by reducing its complexity (e.g. fewer parameters or shallower trees) and use regularisation techniques like L1/L2 penalties.",
+      "I’d employ cross-validation to tune hyperparameters and consider collecting more data or augmenting the dataset.",
+      "I could also use methods like dropout for neural networks or early stopping during training to prevent overfitting."
+    ],
+    "keywords": ["overfitting", "regularisation", "cross-validation", "simplify", "dropout", "early stopping"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  },
+  {
+    "id": "data_scientist-hard-004",
+    "question": "Tell me about a time when you had to convince stakeholders to change a decision based on your data analysis.",
+    "role": "data_scientist",
+    "difficulty": "hard",
+    "type": "behavioral",
+    "student": "I haven't done that yet.",
+    "ideal": [
+      "In a previous role, my analysis showed that a marketing campaign was underperforming. I presented the findings with clear visuals and recommended reallocating the budget to higher-ROI channels; management agreed and we saw improved conversion rates.",
+      "I once used A/B test results to demonstrate that a new product feature decreased user engagement. I explained the statistical significance and suggested improvements, leading the team to iterate on the design.",
+      "I prepared a concise executive summary explaining why our current approach was risky, supported by data, and offered alternative strategies; stakeholders appreciated the insight and adjusted their plans."
+    ],
+    "keywords": ["stakeholders", "communication", "insight", "decision", "influence", "results"],
+    "weights": {"similarity": 0.2, "keywords": 0.15, "completeness": 0.2, "clarity": 0.1, "structure": 0.2, "sentiment": 0.05, "depth": 0.0, "outcome": 0.1}
+  },
+  {
+    "id": "data_scientist-hard-005",
+    "question": "Compare decision trees and logistic regression for classification tasks.",
+    "role": "data_scientist",
+    "difficulty": "hard",
+    "type": "objective",
+    "student": "They are different algorithms.",
+    "ideal": [
+      "Decision trees partition the feature space into hierarchical rules and can capture non-linear relationships; they are easy to interpret but prone to overfitting unless pruned.",
+      "Logistic regression assumes a linear relationship between features and the log-odds of the outcome; it is less flexible but more stable and interpretable for linearly separable data.",
+      "Trees handle categorical features and missing values natively, whereas logistic regression requires preprocessing; choice depends on the complexity of the decision boundary and the need for interpretability."
+    ],
+    "keywords": ["decision tree", "logistic regression", "classification", "interpretability", "non-linear", "linear"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sysadmin-easy-001",
+    "question": "What is your greatest strength?",
+    "role": "sysadmin",
+    "difficulty": "easy",
+    "type": "soft_skill",
+    "student": "I think I'm a good team player and always try to help others.",
+    "ideal": [
+      "My greatest strength is being a strong team player who communicates well and supports others to reach common goals.",
+      "I'm very adaptable and can quickly pick up new tools and environments.",
+      "I have strong problem-solving skills and stay calm under pressure."
+    ],
+    "keywords": ["strength", "teamwork", "communication", "problem-solving", "adaptability"],
+    "weights": {"similarity": 0.1, "keywords": 0.15, "completeness": 0.1, "clarity": 0.25, "structure": 0.1, "sentiment": 0.3, "depth": 0.0, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-easy-002",
+    "question": "What is DNS and why is it important?",
+    "role": "sysadmin",
+    "difficulty": "easy",
+    "type": "objective",
+    "student": "It translates domain names.",
+    "ideal": [
+      "DNS stands for Domain Name System; it translates human‑readable domain names into IP addresses so computers can locate each other on the internet.",
+      "Without DNS you would need to remember numeric IP addresses for every website; DNS servers make network services accessible and user‑friendly.",
+      "Proper DNS configuration is critical for internet connectivity, load balancing and failover."
+    ],
+    "keywords": ["DNS", "domain name", "IP", "resolution", "network"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-easy-003",
+    "question": "How do you prioritise tasks when multiple users have issues at the same time?",
+    "role": "sysadmin",
+    "difficulty": "easy",
+    "type": "situational",
+    "student": "I handle them in the order they come.",
+    "ideal": [
+      "I assess the severity and impact of each issue, prioritising critical problems that affect many users or business operations first.",
+      "I communicate expected response times to users and, where possible, delegate or batch similar requests to resolve them efficiently.",
+      "I document the issues and track their status to ensure nothing is overlooked."
+    ],
+    "keywords": ["prioritise", "severity", "impact", "triage", "communication"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-easy-004",
+    "question": "Tell me about a time you worked in a team to resolve a technical issue.",
+    "role": "sysadmin",
+    "difficulty": "easy",
+    "type": "behavioral",
+    "student": "I worked with my classmates on a project last semester.",
+    "ideal": [
+      "During a system outage I collaborated with network and development teams to identify the root cause and restore service.",
+      "I coordinated communication between stakeholders, delegated tasks based on expertise and ensured that everyone was aligned on the recovery plan.",
+      "After resolving the issue we conducted a post‑mortem to document lessons learned and improve our processes."
+    ],
+    "keywords": ["team", "collaboration", "issue", "communication", "resolution"],
+    "weights": {"similarity": 0.2, "keywords": 0.15, "completeness": 0.2, "clarity": 0.1, "structure": 0.2, "sentiment": 0.05, "depth": 0.0, "outcome": 0.1}
+  },
+  {
+    "id": "sysadmin-easy-005",
+    "question": "What interests you about system administration?",
+    "role": "sysadmin",
+    "difficulty": "easy",
+    "type": "soft_skill",
+    "student": "I like computers.",
+    "ideal": [
+      "I enjoy ensuring that systems run smoothly and securely; it’s satisfying to support users and maintain infrastructure.",
+      "I’m fascinated by networking and server technologies and like troubleshooting complex issues.",
+      "The continuous learning aspect of system administration motivates me – there are always new tools and best practices to explore."
+    ],
+    "keywords": ["interest", "systems", "infrastructure", "problem‑solving", "technology"],
+    "weights": {"similarity": 0.1, "keywords": 0.15, "completeness": 0.1, "clarity": 0.25, "structure": 0.1, "sentiment": 0.3, "depth": 0.0, "outcome": 0.0}
+  }
+]

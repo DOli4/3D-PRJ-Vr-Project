@@ -1,0 +1,52 @@
+[
+  {
+    "type": "objective",
+    "label": "Objective / Fact-based",
+    "description": "Questions with a clear, factual, and verifiable answer.",
+    "criteria": [
+      "There is one correct answer or a small set of known facts.",
+      "Answers can be compared for accuracy using exact matching or similarity.",
+      "Typically used for technical or knowledge-based questions."
+    ]
+  },
+  {
+    "type": "situational",
+    "label": "Situational / Hypothetical",
+    "description": "Scenario-based questions where the answer is judged based on reasoning and logic.",
+    "criteria": [
+      "Describes a hypothetical situation (e.g. conflict, project delay).",
+      "Has a good vs. poor way to respond, but not a single correct answer.",
+      "Answers are evaluated for critical thinking and professionalism."
+    ]
+  },
+  {
+    "type": "behavioral",
+    "label": "Behavioral / Experience-based",
+    "description": "Experience-driven questions that ask the user to reflect on past actions.",
+    "criteria": [
+      "Starts with 'Tell me about a time…' or similar.",
+      "Answers should describe real actions and outcomes.",
+      "Assessed using keywords, relevance, and structure (e.g. STAR method)."
+    ]
+  },
+  {
+    "type": "soft_skill",
+    "label": "Soft Skill / Personal Quality",
+    "description": "Evaluates character traits, habits, or interpersonal skills.",
+    "criteria": [
+      "Focuses on communication, adaptability, strengths/weaknesses, etc.",
+      "No clear right or wrong answer, but some are stronger than others.",
+      "Scored using tone, keyword alignment, and coherence."
+    ]
+  },
+  {
+    "type": "opinion",
+    "label": "Opinion / Personal Preference",
+    "description": "Subjective questions with no expectations for correctness.",
+    "criteria": [
+      "Meant to explore personality or preferences (e.g. favorite language).",
+      "No judgment or scoring beyond tone or appropriateness.",
+      "Used for engagement or casual discussion."
+    ]
+  }
+]

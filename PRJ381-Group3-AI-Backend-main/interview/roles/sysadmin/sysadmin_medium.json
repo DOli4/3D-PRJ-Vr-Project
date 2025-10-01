@@ -1,0 +1,77 @@
+[
+  {
+    "id": "sysadmin-medium-001",
+    "question": "Tell me about a time you worked in a team.",
+    "role": "sysadmin",
+    "difficulty": "medium",
+    "type": "behavioral",
+    "student": "I worked with my classmates on a project last semester.",
+    "ideal": [
+      "I have experience working in a DevOps team where we used agile methods to manage deployments and incident response.",
+      "We divided tasks based on strengths and communicated regularly using daily stand‑ups and retrospectives.",
+      "When challenges arose we supported each other, prioritised tasks together and delivered improvements on schedule."
+    ],
+    "keywords": ["team", "collaboration", "communication", "shared goals", "agile"],
+    "weights": {"similarity": 0.2, "keywords": 0.15, "completeness": 0.2, "clarity": 0.1, "structure": 0.2, "sentiment": 0.05, "depth": 0.0, "outcome": 0.1}
+  },
+  {
+    "id": "sysadmin-medium-002",
+    "question": "How would you troubleshoot a slow network connection?",
+    "role": "sysadmin",
+    "difficulty": "medium",
+    "type": "situational",
+    "student": "I’d reboot the router.",
+    "ideal": [
+      "I would start by verifying whether the issue is isolated or widespread, checking physical connections and running basic diagnostics like ping and traceroute.",
+      "I’d examine network device logs, monitor bandwidth utilisation and look for congestion or hardware failures.",
+      "If the problem persists I would involve the network team, adjust configurations or replace faulty components to restore normal performance."
+    ],
+    "keywords": ["troubleshoot", "network", "diagnostics", "latency", "bandwidth", "logs"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-medium-003",
+    "question": "What is the difference between TCP and UDP?",
+    "role": "sysadmin",
+    "difficulty": "medium",
+    "type": "objective",
+    "student": "One is reliable, the other isn’t.",
+    "ideal": [
+      "TCP is a connection‑oriented protocol that provides reliable, ordered delivery of data and includes flow control and congestion management.",
+      "UDP is connectionless and does not guarantee delivery or ordering, making it faster and suitable for streaming or real‑time applications.",
+      "The choice depends on the need for reliability versus speed: TCP for file transfers or web pages; UDP for VoIP or gaming."
+    ],
+    "keywords": ["TCP", "UDP", "reliable", "connection", "protocol", "streaming"],
+    "weights": {"similarity": 0.35, "keywords": 0.25, "completeness": 0.2, "clarity": 0.1, "structure": 0.0, "sentiment": 0.0, "depth": 0.1, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-medium-004",
+    "question": "How do you stay current with new system administration tools and best practices?",
+    "role": "sysadmin",
+    "difficulty": "medium",
+    "type": "soft_skill",
+    "student": "I sometimes read blogs.",
+    "ideal": [
+      "I subscribe to newsletters and follow thought leaders in the sysadmin and DevOps community.",
+      "I take online courses and obtain certifications to learn about new technologies and best practices.",
+      "I attend conferences, participate in forums and experiment with new tools in a lab environment."
+    ],
+    "keywords": ["learning", "updates", "technology", "courses", "community", "certification"],
+    "weights": {"similarity": 0.1, "keywords": 0.15, "completeness": 0.1, "clarity": 0.25, "structure": 0.1, "sentiment": 0.3, "depth": 0.0, "outcome": 0.0}
+  },
+  {
+    "id": "sysadmin-medium-005",
+    "question": "If multiple servers go down overnight, what are the first steps you would take when you arrive?",
+    "role": "sysadmin",
+    "difficulty": "medium",
+    "type": "situational",
+    "student": "I’d restart them.",
+    "ideal": [
+      "I would review monitoring alerts to determine the scope of the outage and identify common factors among the affected servers.",
+      "I’d check logs, investigate potential hardware or network issues and follow our incident response plan to triage and restore services.",
+      "I would communicate with stakeholders to provide updates and document actions taken for a post‑incident review."
+    ],
+    "keywords": ["incident response", "assessment", "root cause", "communication", "recovery", "monitoring"],
+    "weights": {"similarity": 0.25, "keywords": 0.2, "completeness": 0.2, "clarity": 0.1, "structure": 0.15, "sentiment": 0.05, "depth": 0.05, "outcome": 0.0}
+  }
+]
