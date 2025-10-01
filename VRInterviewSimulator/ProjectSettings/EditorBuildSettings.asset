@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 8b16239f64a020a46a14a5b139a3be57
+  - enabled: 1
+    path: Assets/Scenes/EJE-TestingScenePauseMenu.unity
+    guid: 66a5433334b664343b545f7a90323e44
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4dacb59ade737cc4d84f725615059927, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f0272b551b9ef894fbef75029d632fe4, type: 2}
